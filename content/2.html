@@ -16,15 +16,28 @@
         flex-direction: column;
       }
       
-      h1, h2, h3, h4 {
+      h1, h2, h3, h4, .summary {
         color: white;
         text-shadow: 1px 1px #000000;
       }
+      
+      .summary span {
+      visibility: hidden;
+      font-family: sans-serif;
+      padding-left: 25px;
+      }
+
+    .summary:hover span {
+      visibility: visible;
+    }
     </style>
   </head>
   <body>
     <h1>Forrest Gump</h1>
     <h3>1994 • Paramount Pictures</h3>
+    <span class="summary"><span>Forrest Gump, while not intelligent, 
+    has accidentally been present at many historic moments, 
+    but his true love, Jenny Curran, eludes him.</span></span>
   </body>
 </html>
 
