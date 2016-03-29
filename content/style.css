@@ -15,13 +15,13 @@ html, body{
         text-shadow: 1px 1px #000000;
       }
 
-    .summary  span {
+    .summary  {
       visibility: hidden;
       font-family: sans-serif;
       padding-left: 25px;
     }
 
-    .summary:hover span {
+    .summary:hover {
       visibility: visible;
     }
 
