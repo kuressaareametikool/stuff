@@ -16,13 +16,13 @@ html, body{
       }
 
     .summary  {
-      visibility: hidden;
+      opacity: 0;
       font-family: sans-serif;
       padding-left: 25px;
     }
 
     .summary:hover {
-      visibility: visible;
+      opacity: 1;
     }
 
     a:link {
