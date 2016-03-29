@@ -1,0 +1,30 @@
+html, body{
+      height: 95%;
+    }
+      body{ 
+        font-family: sans-serif;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      
+      h1, h2, h3{
+        color: #FFF;
+        text-shadow: 1px 1px #000000;
+      }
+
+    .summary  {
+      visibility: hidden;
+      font-family: sans-serif;
+      padding-left: 25px;
+    }
+
+    .summary:hover {
+      visibility: visible;
+    }
+
+    a:link {
+    text-decoration: none;
+    }
