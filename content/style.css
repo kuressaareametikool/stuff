@@ -10,7 +10,7 @@ html, body{
         flex-direction: column;
       }
       
-      h1, h2, h3, span{
+      h1, h2, h3, div{
         color: #FFF;
         text-shadow: 1px 1px #000000;
       }
