@@ -14,3 +14,13 @@ html, body{
         color: #FFF;
         text-shadow: 1px 1px #000000;
       }
+
+    .summary  {
+      visibility: hidden;
+      font-family: sans-serif;
+      padding-left: 25px;
+    }
+
+    .summary:hover {
+      visibility: visible;
+    }
