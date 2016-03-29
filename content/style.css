@@ -24,3 +24,7 @@ html, body{
     .summary:hover {
       visibility: visible;
     }
+
+    a:link {
+    text-decoration: none;
+    }
