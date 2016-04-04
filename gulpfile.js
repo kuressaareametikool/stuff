@@ -11,8 +11,8 @@ var handler = webhookHandler({ path: '/webhook', secret: 'secret' })
 gulp.task('default', function() {
     browserSync.init({
         server: { baseDir: "./" },
-        port: 3000,
-        ui: { port: 3001 },
+        port: 6000,
+        ui: { port: 6001 },
         notify: false
     });
     gulp.watch(['./*.html', 'content/*.html']).on('change', browserSync.reload);
@@ -25,7 +25,7 @@ http.createServer(function (req, res) {
     res.statusCode = 404
     res.end('No such location')
   })
-}).listen(3002)
+}).listen(6002)
 
 handler.on('error', function (err) {
     console.error(err.message)
