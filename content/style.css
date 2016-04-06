@@ -8,6 +8,7 @@ html, body{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        background-repeat: no-repeat;
       }
       
       h1, h2, h3, div{
@@ -16,13 +17,9 @@ html, body{
       }
 
     .summary  {
-      opacity: 0;
       font-family: sans-serif;
       padding-left: 25px;
-    }
-
-    .summary:hover {
-      opacity: 1;
+      letter-spacing: 2px;
     }
 
     a:link {
